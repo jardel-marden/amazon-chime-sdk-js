@@ -15,8 +15,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- Refactored various state cleanup to `AudioVideoControllerState.resetConnectionSpecificState`.
+
 ### Fixed
+
 - Fix ES2015 target builds by fixing voicefocus js file.
+- Added missing state cleanup for various video components on reconnect to mitigate missing remote or local video.
 
 ## [3.10.0] - 2022-11-02
 
